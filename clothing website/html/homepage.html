@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping website</title>
+
+    <!-- bootstrap css cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">KAVS P</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#men">Men</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Women</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#women">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kid">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footwear">Footwear</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/carousel1.png" class="d-block w-100" alt="carousel_image1">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carousel2.png" class="d-block w-100" alt="carousel_image2">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carousel3.png" class="d-block w-100" alt="carousel_image3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- top picks -->
+
+    <div class="top-picks">
+        <div class="heading">Top Picks</div>
+        <div class="top-picks-collection ">
+
+            <div class="card shadoww shadoww1">
+                <a href="buynow.html">
+                    <img src="../img/top1.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Boys Indowestern & Sherwani</h5>
+                        <p class="card-text">
+                            Rs. 1599
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww2">
+                <a href=" ">
+                    <img src="../img/top2.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title"> Flying Sleeve Fluffy Dresses Kids Gowns</h5>
+                        <p class="card-text">
+                            Rs. 2599
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww3">
+                <a href=" ">
+                    <img src="../img/top3.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">BIBA Women's Cotton Midi Dress</h5>
+                        <p class="card-text">
+                            Rs. 999
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww4">
+                <a href=" ">
+                    <img src="../img/top4.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Women Touch Embellished Top</h5>
+                        <p class="card-text">
+                            Rs. 599
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww5">
+                <a href=" ">
+                    <img src="../img/top5.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Half Sleeves Goa Style Comfy Shirt</h5>
+                        <p class="card-text">
+                            Rs. 327
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww6">
+                <a href=" ">
+                    <img src="../img/top6.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Round Neck Oversized T-shirt</h5>
+                        <p class="card-text">
+                            Rs. 899
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww7">
+                <a href=" ">
+                    <img src="../img/top7.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">CASUAL Sneakers For Men (White)</h5>
+                        <p class="card-text">
+                            Rs. 4499
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww8">
+                <a href=" ">
+                    <img src="../img/top8.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandal Bowknot women slipper</h5>
+                        <p class="card-text">
+                            Rs. 1850s
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- men -->
+
+    <div id="men" class="top-picks">
+        <div class="heading">MEN</div>
+        <div class="top-picks-collection ">
+
+            <div class="card shadoww shadoww1">
+                <a href="buynow.html">
+                    <img src="../img/men1.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Solid Color Men's Round Neck T-Shirt</h5>
+                        <p class="card-text">
+                            Rs. 729
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww2">
+                <a href=" ">
+                    <img src="../img/men2.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Colorblocked Round Neck T-Shirt</h5>
+                        <p class="card-text">
+                            Rs. 555
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww3">
+                <a href=" ">
+                    <img src="../img/men3.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Solid Colour Formal Shirt</h5>
+                        <p class="card-text">
+                            Rs. 1250
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww4">
+                <a href=" ">
+                    <img src="../img/men4.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Colour Leather Jacket</h5>
+                        <p class="card-text">
+                            Rs. 2000
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww5">
+                <a href=" ">
+                    <img src="../img/men5.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">T-shirt with Shoulder Patch</h5>
+                        <p class="card-text">
+                            Rs. 600
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww6">
+                <a href=" ">
+                    <img src="../img/men6.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Men Slim Fit Jeans</h5>
+                        <p class="card-text">
+                            Rs. 350
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww7">
+                <a href=" ">
+                    <img src="../img/men7.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Mid Wash Slim Fit Distressed Jeans</h5>
+                        <p class="card-text">
+                            Rs. 1679
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww8">
+                <a href=" ">
+                    <img src="../img/men8.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">IVOC Solid Jogger Pants</h5>
+                        <p class="card-text">
+                            Rs. 1259
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- women -->
+
+    <div id="women" class="top-picks">
+        <div class="heading">WOMEN</div>
+        <div class="top-picks-collection ">
+
+            <div class="card shadoww shadoww1">
+                <a href=" ">
+                    <img src="../img/1.png" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Kurta with Palazzo & Dupatta</h5>
+                        <p class="card-text">
+                            Rs. 1799
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww2">
+                <a href=" ">
+                    <img src="../img/2.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Women Solid Kurta with Trouser</h5>
+                        <p class="card-text">
+                            Rs. 1799
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww3">
+                <a href=" ">
+                    <img src="../img/3.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Printed Straight Kurta</h5>
+                        <p class="card-text">
+                            Rs. 659
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww4">
+                <a href=" ">
+                    <img src="../img/4.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Slim Fit Straight Kurta</h5>
+                        <p class="card-text">
+                            Rs. 1990
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww5">
+                <a href=" ">
+                    <img src="../img/5.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Solid Shirt Style Top</h5>
+                        <p class="card-text">
+                            Rs. 549
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww6">
+                <a href=" ">
+                    <img src="../img/6.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Ruffled Shirt Style Top</h5>
+                        <p class="card-text">
+                            Rs. 599
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww7">
+                <a href=" ">
+                    <img src="../img/7.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Digital Print Crepe Top</h5>
+                        <p class="card-text">
+                            Rs. 486
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww8">
+                <a href=" ">
+                    <img src="../img/8.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Solid Regular Fit Half Sleeve T-Shirt</h5>
+                        <p class="card-text">
+                            Rs. 350
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- kid -->
+
+    <div id="kid" class="top-picks">
+        <div class="heading">KIDS</div>
+        <div class="top-picks-collection ">
+
+            <div class="card shadoww shadoww1">
+                <a href=" ">
+                    <img src="../img/kid1.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Girl's Rayon Kurti with Leggings</h5>
+                        <p class="card-text">
+                            Rs. 238
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww2">
+                <a href=" ">
+                    <img src="../img/kid2.jpeg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Frock and Suit Set for Child</h5>
+                        <p class="card-text">
+                            Rs. 1250
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww3">
+                <a href=" ">
+                    <img src="../img/kid3.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Denim Jacket with Feather Color</h5>
+                        <p class="card-text">
+                            Rs. 950
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww4">
+                <a href=" ">
+                    <img src="../img/kid4.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Boys Waistcoat and Pant Set</h5>
+                        <p class="card-text">
+                            Rs. 2350
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww5">
+                <a href=" ">
+                    <img src="../img/kid5.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Girl's Party Wear Dress for Kids</h5>
+                        <p class="card-text">
+                            Rs. 390
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww6">
+                <a href=" ">
+                    <img src="../img/kid6.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Designer Frock for Kids</h5>
+                        <p class="card-text">
+                            Rs. 850
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww7">
+                <a href=" ">
+                    <img src="../img/kid7.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Girl's Party Wear Frock for Kids</h5>
+                        <p class="card-text">
+                            Rs. 2340
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww8">
+                <a href=" ">
+                    <img src="../img/kid8.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Boys Indowestern & Sherwani</h5>
+                        <p class="card-text">
+                            Rs. 2160
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footwear -->
+
+    <div id="footwear" class="top-picks">
+        <div class="heading">FOOTWEAR</div>
+        <div class="top-picks-collection ">
+
+            <div class="card shadoww shadoww1">
+                <a href=" ">
+                    <img src="../img/shoe1.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">CASUAL Sneakers For Men (White)</h5>
+                        <p class="card-text">
+                            Rs. 850
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww2">
+                <a href=" ">
+                    <img src="../img/shoe2.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Men Loafers Walking Sneakers</h5>
+                        <p class="card-text">
+                            Rs. 885
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww3">
+                <a href=" ">
+                    <img src="../img/shoe3.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">KWIK FIT Black casual sneaker</h5>
+                        <p class="card-text">
+                            Rs. 998
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww4">
+                <a href=" ">
+                    <img src="../img/shoe4.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Casual Sports Canvas Shoes Men</h5>
+                        <p class="card-text">
+                            Rs. 1350
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww5">
+                <a href=" ">
+                    <img src="../img/shoe5.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">H.D Vicenza Aramis Shoes</h5>
+                        <p class="card-text">
+                            Rs. 999
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww6">
+                <a href=" ">
+                    <img src="../img/shoe6.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's Sports Casual Shoes</h5>
+                        <p class="card-text">
+                            Rs. 990
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww7">
+                <a href=" ">
+                    <img src="../img/shoe7.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">Men Lightweight Slip Loafer</h5>
+                        <p class="card-text">
+                            Rs. 750
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card shadoww shadoww8">
+                <a href=" ">
+                    <img src="../img/shoe8.jpg" class="card-img-top" alt="top_picks_img">
+                    <div class="card-body">
+                        <h5 class="card-title">H.D Vicenza Aramis Shoes</h5>
+                        <p class="card-text">
+                            Rs. 1300
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="site-footer myfoter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero hic distinctio est accusantium
+                        maiores, reiciendis explicabo maxime in quisquam asperiores eligendi earum dignissimos animi
+                        blanditiis sit ratione iure. Cupiditate facilis doloremque veniam repellat earum facere
+                        necessitatibus, deserunt perspiciatis, optio quasi iusto voluptatibus quis officiis ducimus
+                        porro natus nulla inventore nemo!
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/c-language/">Men</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">Women</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">Kids</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Footwears</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Blog</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                        <!-- <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li> -->
+                        //just for responce http://scanfcode.com
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved
+                        <!-- <a href="#">Vivek</a>. -->
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- jquerry cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- js -->
+    <script src="homepage.js"></script>
+</body>
+
+</html>
